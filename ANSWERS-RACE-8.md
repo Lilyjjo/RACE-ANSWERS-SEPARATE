@@ -1,14 +1,14 @@
-[Q-01] A,B,C,D
-[Q-02] A,B,C
-[Q-03] A,B,C
-[Q-04] A
-[Q-05] A,C
-[Q-06] A,C
-[Q-07] D
+[Q-01] A,B,C,D\
+[Q-02] A,B,C\
+[Q-03] A,B,C\
+[Q-04] A\
+[Q-05] A,C\
+[Q-06] A,C\
+[Q-07] D\
 [Q-08] A,B,C
 
 
-Number of Racers : 
-Median Score     : 
-Top Score        : 
+Number of Racers : \
+Median Score     : \
+Top Score        : \
 Qualifying Score : 
