@@ -8,7 +8,8 @@
 [Q-08] B,C
 
 
-Number of Racers : 
-Median Score     : 
-Top Score        : 
-Qualifying Score : 
+Number of Racers : 106
+Median Score     : 5.6/8
+Top Score        : 8/8
+Qualifying Score : ?
+Designed By: @Emiliano Bonassi

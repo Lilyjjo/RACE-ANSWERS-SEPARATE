@@ -8,7 +8,8 @@
 [Q-08] B,C
 
 
-Number of Racers : 
-Median Score     : 
-Top Score        : 
-Qualifying Score : 
+Number of Racers : 230
+Median Score     : 2.2/8
+Top Score        : 7/8
+Qualifying Score : ?
+Designed By: @hickuphh3

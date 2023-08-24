@@ -16,7 +16,7 @@
 [Q-16] A,B,C,D
 
 
-Number of Racers : 
-Median Score     : 
-Top Score        : 
-Qualifying Score : 
+Number of Racers : N/A
+Median Score     : N/A
+Top Score        : N/A
+Qualifying Score : N/A

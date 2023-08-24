@@ -8,7 +8,8 @@
 [Q-08] A
 
 
-Number of Racers : 
-Median Score     : 
-Top Score        : 
-Qualifying Score : 
+Number of Racers : 172
+Median Score     : 3.5/8
+Top Score        : 7.5/8
+Qualifying Score : ?
+Designed By: @walker and @GNSPS

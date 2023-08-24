@@ -8,7 +8,8 @@
 [Q-08] B,D
 
 
-Number of Racers : 
-Median Score     : 
-Top Score        : 
-Qualifying Score : 
+Number of Racers : 180
+Median Score     : 4/8
+Top Score        : 8/8
+Qualifying Score : ?
+Designed By: @Nurit|Cetora & @CAREX Certora-Team
