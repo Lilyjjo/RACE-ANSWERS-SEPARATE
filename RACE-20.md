@@ -52,7 +52,6 @@ library LibString {
 (C): Instead of allocating memory from 0x40, the function can allocate from 0x0 to save gas (memory expansion cost) and still be correct \
 (D): None of the above 
 
-**[Answers]: A**
 
 ---
 **[Q2] Select all true statements about the expression `mstore(0x40, add(str, 128))`** \
@@ -61,7 +60,6 @@ library LibString {
 (C): The expression is redundant and can be removed to save gas \
 (D): The expression is not `memory-safe` assembly in this context 
 
-**[Answers]: B**
 
 ---
 **[Q3] Select all true statements:** \
@@ -70,7 +68,6 @@ library LibString {
 (C): The final expression `mstore(str, sub(78, k))` can be removed to save gas \
 (D): The function does not return the correct output for `n = 2**256 - 1`
 
-**[Answers]: A, B**
 
 ---
 **[Q4] Select all true statements:** \
@@ -79,7 +76,6 @@ library LibString {
 (C): The last bits of memory in the string may be dirty \
 (D): None of the above
 
-**[Answers]: B, C**
 
 ---
 **Note**: The last four questions are based on the below abstract contract. The same abstract contract will appear for all the last four questions. The question is below the shown abstract contract.
@@ -119,7 +115,6 @@ abstract contract Proxy is ReentrancyGuard {
 (C): The re-entrancy lock is correctly unlocked in some cases \
 (D): The re-entrancy lock is correctly unlocked in all cases
 
-**[Answers]: C**
 
 ---
 **[Q6] Select all true statements:** \
@@ -128,7 +123,6 @@ abstract contract Proxy is ReentrancyGuard {
 (C): In some cases, the assembly block will not violate the requirement needed for `memory-safe` blocks \
 (D): None of the above
 
-**[Answers]: C**
 
 ---
 **[Q7] Select all true statements:** \
@@ -139,7 +133,6 @@ abstract contract Proxy is ReentrancyGuard {
 (E): The expression `revert(0, returndatasize())` violates `memory-safe` assembly annotation \
 (F): None of the above
 
-**[Answers]: A, B**
 
 ---
 **[Q8] Select all true statements:** \
@@ -148,6 +141,5 @@ abstract contract Proxy is ReentrancyGuard {
 (C): Proxies are typically used to save deploy-time gas costs \
 (D): Proxies can be used to prevent contract size limit issues
 
-**[Answers]: B, C, D**
 
 ---

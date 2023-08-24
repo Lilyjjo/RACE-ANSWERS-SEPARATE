@@ -57,7 +57,6 @@ function safeAdd(uint a, uint b) pure internal returns(uint) {
 (C): ERC721  
 (D): None of the above  
 
-**[Answers]: D** 
 
 ---
 
@@ -68,7 +67,6 @@ function safeAdd(uint a, uint b) pure internal returns(uint) {
 (C): A way to withdraw/exchange/use Ether from the contract  
 (D): None of the above  
 
-**[Answers]: C**  
 
 ---
 
@@ -79,7 +77,6 @@ function safeAdd(uint a, uint b) pure internal returns(uint) {
 (C): _transfer()_ can be external  
 (D): _safeAdd()_ can be public  
 
-**[Answers]: C,D**
 
 ---
 
@@ -90,7 +87,6 @@ function safeAdd(uint a, uint b) pure internal returns(uint) {
 (C): `100`  
 (D): None of the above  
 
-**[Answers]: D**  
 
 ---
 
@@ -101,7 +97,6 @@ function safeAdd(uint a, uint b) pure internal returns(uint) {
 (C): A division by zero allows one to trap/freeze the system  
 (D): None of the above  
 
-**[Answers]: B**  
 
 ---
 
@@ -112,7 +107,6 @@ function safeAdd(uint a, uint b) pure internal returns(uint) {
 (C): Incorrect balance update allows one to receive new tokens for free  
 (D): None of the above  
 
-**[Answers]: C**
 
 ---
 
@@ -123,7 +117,6 @@ function safeAdd(uint a, uint b) pure internal returns(uint) {
 (C): A reentrancy allows one to receive new tokens for free  
 (D): None of the above  
 
-**[Answers]: D**  
 
 ---
 
@@ -134,6 +127,5 @@ function safeAdd(uint a, uint b) pure internal returns(uint) {
 (C): An integer overflow allows one to trap/freeze the system  
 (D): None of the above  
 
-**[Answers]: D or B or C or B,C**  
 
 ---

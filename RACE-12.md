@@ -104,7 +104,6 @@ contract PermitModule is TokenV1, ERC20Permit {
 (C) Making `MIGRATOR_ROLE` state variable immutable    
 (D) Making `UNDERLYING` state variable immutable           
     
-**[Answers]: A, D**    
 
 ---
 
@@ -115,7 +114,6 @@ contract PermitModule is TokenV1, ERC20Permit {
 (C): Changing TokenV1's stored bytecode to something different    
 (D): With the current code it's not possible for anyone to have `MIGRATOR_ROLE` permission    
     
-**[Answers]: A, B**    
 
 ---
 
@@ -126,7 +124,6 @@ contract PermitModule is TokenV1, ERC20Permit {
  (C): Allows stealing approved tokens due to a phantom (i.e. missing) function    
  (D): None of the above    
     
-**[Answers]: C**    
     
 ---
 
@@ -137,7 +134,6 @@ contract PermitModule is TokenV1, ERC20Permit {
 (C): It would introduce a re-entrancy vulnerability due to receive hooks    
 (D): None of the above      
     
-**[Answers]: A**    
     
 ---
 
@@ -148,7 +144,6 @@ contract PermitModule is TokenV1, ERC20Permit {
  (C): The TokenV2 contract    
  (D): The PermitModule contract     
     
-**[Answers]: C**    
     
 ---
     
@@ -159,7 +154,6 @@ contract PermitModule is TokenV1, ERC20Permit {
  (C): Stops functioning because TokenV1 has been replaced    
  (D): None of the above      
     
-**[Answers]: B**    
     
 ---
     
@@ -170,7 +164,6 @@ contract PermitModule is TokenV1, ERC20Permit {
 (C): Is not vulnerable in the `depositWithPermit()` function    
 (D): Is vulnerable due to a Double-Entry-Point     
     
-**[Answers]: C, D**    
     
 ---
 
@@ -181,7 +174,6 @@ contract PermitModule is TokenV1, ERC20Permit {
  (C): Allows anyone to manipulate TokenV2's balances    
  (D): Can be self-destructed by anyone     
     
-**[Answers]: B, D**    
     
 ---
     

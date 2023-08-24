@@ -128,7 +128,6 @@ contract Seller {
        reentrancy_lock = 0;
 ```
 
-**[Answers]: B, D**
 
 ---
 
@@ -138,7 +137,6 @@ contract Seller {
 (C): Anyone who can trick owner into signing an arbitrary transaction \
 (D): No one 
 
-**[Answers]: B, C**
 
 ---
 
@@ -150,7 +148,6 @@ contract Seller {
 (D): Only if we add a prior check: \
     `require(current_eth >= amount);` 
     
-**[Answers]:  D**
 
 ---
 
@@ -160,7 +157,6 @@ contract Seller {
 (C): Yes, there is a cross-contract reentrancy concern via `Seller` \
 (D): None of the above 
 
-**[Answers]:  C**
 
 ---
 
@@ -170,7 +166,6 @@ contract Seller {
 (C): `buyEth()` will be called but ETH won't be transferred \
 (D): Transaction will be reverted
 
-**[Answers]:  D** 
 
 ---
 
@@ -180,7 +175,6 @@ contract Seller {
 (C): If `token_amount` is > `MAX_UINT64`, it will result in a casting issue \
 (D): None of the above
 
-**[Answers]:  A, C**
 
 ---
 
@@ -190,7 +184,6 @@ contract Seller {
 (C): Yes, once all the ETH are sold \
 (D): No, there is no issue
 
-**[Answers]:  A**
 
 ---
 
@@ -200,6 +193,5 @@ contract Seller {
 (C): `this.balance <= token.balanceOf(this)` &&  `token.balanceOf(this) <= token_balance` \
 (D): `this.balance >= current_eth` || `token.balanceOf(this)  >= token_balance`
 
-**[Answers]:  B, D**  
 
 ---

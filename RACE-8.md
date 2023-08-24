@@ -197,7 +197,6 @@ abstract contract ERC721TokenReceiver {
 (C): NFT approvals are tracked by `getApproved`  
 (D): NFT operator can transfer all of owner’s NFTs  
 
-**[Answers]: A, B, C, D**
 
 ---
 
@@ -208,7 +207,6 @@ abstract contract ERC721TokenReceiver {
 (C): Operator  
 (D): None of the above  
 
-**[Answers]: A, B, C**
 
 ---
 
@@ -219,7 +217,6 @@ abstract contract ERC721TokenReceiver {
 (C): Transparency by emitting event  
 (D): None of the above  
 
-**[Answers]: A, B, C**
 
 ---
 
@@ -230,7 +227,6 @@ abstract contract ERC721TokenReceiver {
 (C): Incorrect emission of event  
 (D): None of the above  
 
-**[Answers]: A**
 
 ---
 
@@ -241,7 +237,6 @@ abstract contract ERC721TokenReceiver {
 (C): Validating if the recipient is an ERC721 aware contract  
 (D): None of the above  
 
-**[Answers]: A, C**
 
 ---
 
@@ -252,7 +247,6 @@ abstract contract ERC721TokenReceiver {
 (C): Allows the NFT operator to approve a spender  
 (D): None of the above  
 
-**[Answers]: A, C**
 
 ---
 
@@ -263,7 +257,6 @@ abstract contract ERC721TokenReceiver {
 (C): Revokes everyone’s approvals to manage `msg.sender`’s NFTs  
 (D): None of the above  
 
-**[Answers]: D**
 
 ---
 
@@ -274,6 +267,5 @@ abstract contract ERC721TokenReceiver {
 (C): Potential integer underflow  
 (D): None of the above  
 
-**[Answers]: A, B, C**
 
 ---

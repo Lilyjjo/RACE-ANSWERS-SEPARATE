@@ -81,7 +81,6 @@ contract InSecureumDAO is Pausable, ReentrancyGuard {
 (C): DAO requires an exact payment of _membershipFee_ to join the DAO  
 (D): None of the above  
 
-**[Answers]: A,B,C**
 
 ---
 
@@ -92,7 +91,6 @@ contract InSecureumDAO is Pausable, ReentrancyGuard {
 (C): All critical privileged-role functions have events emitted  
 (D): None of the above  
 
-**[Answers]: D**
 
 ---
 
@@ -103,7 +101,6 @@ contract InSecureumDAO is Pausable, ReentrancyGuard {
 (C): Both A and B  
 (D): Neither A nor B  
 
-**[Answers]: B**
 
 ---
 
@@ -114,7 +111,6 @@ contract InSecureumDAO is Pausable, ReentrancyGuard {
 (C): _getWinningOutcome()_ to prevent non-members from viewing winning outcomes  
 (D): None of the above  
 
-**[Answers]: A,B**  
 
 ---
 
@@ -125,7 +121,6 @@ contract InSecureumDAO is Pausable, ReentrancyGuard {
 (C): _castVote()_ to not disclose the vote being cast  
 (D): All the above  
 
-**[Answers]: C**
 
 ---
 
@@ -136,7 +131,6 @@ contract InSecureumDAO is Pausable, ReentrancyGuard {
 (C): _getWinningOutcome()_ for existing `_voteId`  
 (D): _setMembershipFee()_ for sanity/threshold checks on `_fee`  
 
-**[Answers]: A,D**  
 
 ---
 
@@ -147,7 +141,6 @@ contract InSecureumDAO is Pausable, ReentrancyGuard {
 (C): Is a critical function missing an event emission  
 (D): None of the above  
 
-**[Answers]: A,C**  
 
 ---
 
@@ -158,6 +151,5 @@ contract InSecureumDAO is Pausable, ReentrancyGuard {
 (C): Because Ethereum protocol was fixed after the DAO exploit to prevent such exploits  
 (D): Because Solidity language was fixed after the DAO exploit to prevent such exploits  
 
-**[Answers]: B**
 
 ---

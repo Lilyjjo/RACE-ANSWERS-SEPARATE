@@ -12,7 +12,6 @@ contract test {
 (C): Is illustrative of risks from using a much older Solidity version (assume current version is 0.8.9)  
 (D): None of the above 
 
-**[Answers] B,C**  
 
 ---
 
@@ -34,7 +33,6 @@ contract test {
 (C): A compiler error because of the use of the *kill* reserved keyword  
 (D): None of the above  
 
-**[Answers] A,B**  
 
 ---
 
@@ -62,7 +60,6 @@ contract test {
 (C): Unprotected withdrawal of funds  
 (D): None of the above  
 
-**[Answers] A,C**
 
 ---
 
@@ -98,7 +95,6 @@ contract test {
 (C): *getAddress* reverts if *check* is false  
 (D): None of the above  
 
-**[Answers] A,B** 
 
 ---
 
@@ -125,7 +121,6 @@ contract test {
 (C): *delegate()* may be missing *onlyAdmin* modifier  
 (D): *delegate()* does not check for contract existence at *addr*  
 
-**[Answers] A,B,C,D**
 
 ---
 
@@ -154,7 +149,6 @@ contract test {
 (C): Missing check on user balance in *withdraw()*  
 (D): All of the above  
 
-**[Answers] B,C or A,B,C or A,B,C,D or D**
 
 ---
 
@@ -179,7 +173,6 @@ contract test {
 (C): *block.timestamp* is an insecure source of randomness  
 (D): Integer overflow  
 
-**[Answers] B,C**
 
 ---
 
@@ -209,7 +202,6 @@ contract test {
 (C): Assumption on contract balance might cause a revert  
 (D): Missing event for critical *emergencyWithdraw()* function  
 
-**[Answers] B,D**
 
 ---
 
@@ -236,7 +228,6 @@ contract test {
 (C): Incorrect use of *msg.sender*  
 (D): Use of strict equality (!=) may break the *MAX_FUND_RAISE* constraint  
 
-**[Answers] D**
 
 ---
 
@@ -260,7 +251,6 @@ contract test {
 (C): Pass always  
 (D): Fail always  
 
-**[Answers] B**
 
 ---
 
@@ -285,7 +275,6 @@ contract test {
 (C): Single-step change of critical address  
 (D): Missing event for critical function  
 
-**[Answers] A,B,C,D**
 
 ---
 
@@ -324,7 +313,6 @@ contract test {
 (C): Missing zero-address validation for *_pool* in *setPoolAddress()*  
 (D): Transaction order dependence risk from *admin* front-running with pool address change  
 
-**[Answers] A,C,D**
 
 ---
 
@@ -361,7 +349,6 @@ contract test is Initializable {
 (C): *rewards* will be 0 in the proxy contract before *setRewards()* is called by it  
 (D): All the above  
 
-**[Answers] B,C**
 
 ---
 
@@ -403,7 +390,6 @@ contract test {
 (C): Unchecked return value of *transfer()* (assuming it returns a boolean/other value and does not revert on failure)  
 (D): Potential reverts due to mismatched lengths of *recipients* and *amounts* arrays  
 
-**[Answers] A,C,D**
 
 ---
 
@@ -431,7 +417,6 @@ contract test {
 (C): Integer underflow leading to wrapping  
 (D): None of the above  
 
-**[Answers] A**
 
 ---
 
@@ -454,6 +439,5 @@ function verify(address signer, bytes32 memory hash, bytes32 sigR, bytes32 sigS,
 (C): Missing use of *chainID* in message hash may allow replay attacks across chains  
 (D): Missing zero-address check for *ecrecover* return value may allow invalid signatures  
 
-**[Answers] A,B,C,D**  
 
 ---

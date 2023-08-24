@@ -133,7 +133,6 @@ function _transfer(
 (C): Non-standard _transfer_  
 (D): None of the above  
 
-**[Answers]: A, B**
 
 ---
 
@@ -144,7 +143,6 @@ function _transfer(
 (C): `_mint()` should have _internal_ visibility instead of _external_  
 (D): None of the above  
 
-**[Answers]: A, C**
 
 ---
 
@@ -155,7 +153,6 @@ function _transfer(
 (C): Has an optimisation indicative of unlimited approvals  
 (D): None of the above  
 
-**[Answers]: A, B, C**
 
 ---
 
@@ -166,7 +163,6 @@ function _transfer(
 (C): _decreaseAllowance_ does not allow reducing allowance to zero  
 (D): _decreaseAllowance_ can be optimised with `unchecked{}`  
 
-**[Answers]: C, D**
 
 ---
 
@@ -177,7 +173,6 @@ function _transfer(
 (C): Is susceptible to an integer underflow  
 (D): None of the above  
 
-**[Answers]: D**
 
 ---
 
@@ -188,7 +183,6 @@ function _transfer(
 (C): Has an incorrect update of account balance  
 (D): None of the above
 
-**[Answers]: A, C**
 
 ---
 
@@ -199,7 +193,6 @@ function _transfer(
 (C): Has an incorrect update of account balance  
 (D): None of the above
 
-**[Answers]: B**
 
 ---
 
@@ -210,6 +203,5 @@ function _transfer(
 (C): Has an incorrect update of allowance  
 (D): None of the above
 
-**[Answers]: B, C**
 
 ---

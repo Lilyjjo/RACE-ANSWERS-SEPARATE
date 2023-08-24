@@ -176,7 +176,6 @@ contract CallbackERC20 {
 (C): To avoid reentrancy\
 (D): None of the above
 
- **[Answers]: B**
  
  ---
  
@@ -186,7 +185,6 @@ contract CallbackERC20 {
 (C): At all times\
 (D): At no times
 
-**[Answers]: D**
 
 ---
 
@@ -198,7 +196,6 @@ contract CallbackERC20 {
 (D): The code always reverts
 
 
-**[Answers]: C**
 
 ---
 
@@ -212,7 +209,6 @@ contract CallbackERC20 {
 (C): ```return "Callback";```\
 (D): None of the above
 
-**[Answers]: A, B, C**
 
 ---
 
@@ -223,7 +219,6 @@ contract CallbackERC20 {
 (C): Selector 0x00000000 is possible in which case a valid callback would not be called\
 (D): Selector can never be 0x00000000, so the check is useless
 
-**[Answers]: C**
 
 ---
 
@@ -233,7 +228,6 @@ contract CallbackERC20 {
 (C): One should always use `try/catch` in external calls\
 (D): The called contract may not have the called function selector thus falling through to `fallback` or reverting the transfer
 
-**[Answers]: D**
 
 ---
 
@@ -243,7 +237,6 @@ contract CallbackERC20 {
 (C): Send Ether to the called contract\
 (D): Make the call in inline assembly
 
-**[Answers]: B**
 
 ---
 
@@ -254,6 +247,5 @@ contract CallbackERC20 {
 (C): During the callback, while being the recipient of a transfer, burn the received tokens\
 (D): This cannot happen in this contract
 
-**[Answers]: D**
 
 ---

@@ -138,7 +138,6 @@ contract Bank{
 (C): Front-running risks \
 (D): Arithmetic risks 
 
-**[Answers]: A, B, C, D**
 
 ---
 **[Q2] Which of the following statement(s) is/are true?** \
@@ -147,7 +146,6 @@ contract Bank{
 (C): The contract does not follow Natspec for all the documentation \
 (D): None of the above 
 
-**[Answers]: B, C**
 
 ---
 **[Q3] Which of the following is an/are invariant(s) that should hold true? (assuming no bug)** \
@@ -156,7 +154,6 @@ contract Bank{
 (C): For any user, `token.balanceOf(user) == balances[user]` \
 (D): None of the above
 
-**[Answers]: B**
 
 ---
 **[Q4] Which of the following sentence(s) is/are true regarding `getBalances`?** \
@@ -165,7 +162,6 @@ contract Bank{
 (C): `getBalances` always returns zero \
 (D): None of the above
 
-**[Answers]: C**
 
 ---
 **[Q5] Which of the following sentence(s) is/are true regarding the `balances` mapping?** \
@@ -174,7 +170,6 @@ contract Bank{
 (C): An attacker can increase their `balances` to any amount \
 (D): An attacker cannot compromise the `balances` mapping
 
-**[Answers]: B**
 
 ---
 **[Q6] Which of the following sentence(s) is/are true regarding reentrancies in this contract?** \
@@ -183,7 +178,6 @@ contract Bank{
 (C): There are no reentrancy risks \
 (D): None of the above
 
-**[Answers]: B**
 
 ---
 **[Q7] The `mint` function has the following risks (assuming there are no bugs in the other functions):** \
@@ -192,7 +186,6 @@ contract Bank{
 (C): `minted[msg.sender] = amount * decimals_factor;` should be replaced by `minted[msg.sender] = amount / decimals_factor;` \
 (D): None of the above
 
-**[Answers]: A**
 
 ---
 **[Q8] The `burn` and `_has_enough_balance` functions have the following risks (assuming there are no bugs in the other functions):** \
@@ -201,6 +194,5 @@ contract Bank{
 (C): `burn` should use `tx.origin` instead of `msg.sender` to prevent access control issues \
 (D): None of the above
 
-**[Answers]: B**
 
 ---

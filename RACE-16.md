@@ -86,7 +86,6 @@ contract FlashLoan is IERC3156FlashLender {
 (C): The transaction reverts because the user returned more than `retAmt` funds \
 (D): The transaction reverts because a user tried to spend more funds than their allowance in `onFlashLoan()`
 
-**[Answers]: A, B, D**
 
 ---
 
@@ -96,7 +95,6 @@ contract FlashLoan is IERC3156FlashLender {
 (C): t.balanceOf(address(this)) > old(t.balanceOf(address(this))) \
 (D): t.balanceOf(address(this)) == old(t.balanceOf(address(this))) + fee
 
-**[Answers]: A**
 
 ---
 
@@ -106,7 +104,6 @@ contract FlashLoan is IERC3156FlashLender {
 (B): ERC777 \
 (C): ERC1155 
     
-**[Answers]:  C**
 
 ---
 
@@ -116,7 +113,6 @@ contract FlashLoan is IERC3156FlashLender {
 (C): `transferFrom()` \
 (D): `approve()` 
 
-**[Answers]:  C**
 
 ---
 
@@ -126,7 +122,6 @@ contract FlashLoan is IERC3156FlashLender {
 (C): To pay those who staked their funds to be flashloaned \
 (D): It has no purpose
 
-**[Answers]:  A** 
 
 ---
 
@@ -136,7 +131,6 @@ contract FlashLoan is IERC3156FlashLender {
 (C): Constant \
 (D): None of the above
 
-**[Answers]:  B**
 
 ---
 
@@ -146,7 +140,6 @@ contract FlashLoan is IERC3156FlashLender {
 (C): The `FlashLoan` contract's balance of token t will STAY THE SAME \
 (D): None of the above
 
-**[Answers]:  D**
 
 ---
 
@@ -156,6 +149,5 @@ contract FlashLoan is IERC3156FlashLender {
 (C): The sum of all flashloans granted by the `FlashLoan` contract is less than the `maxFlashLoan` amount \
 (D): The token balance of any contract/user other than the `FlashLoan` contract, the caller of the `flashLoan()`, and the “receiver” contract will remain the same as before the call to `flashLoan()`
 
-**[Answers]:  B**  
 
 ---
