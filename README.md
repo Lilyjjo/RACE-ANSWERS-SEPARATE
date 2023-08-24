@@ -71,27 +71,27 @@ This repo has been modified from the main repo to:
  Score    :
  Placed?  : 
  Competed?: 
-15 :
+15:
  Score    :
  Placed?  : 
  Competed?: 
-16 :
+16:
  Score    :
  Placed?  : 
  Competed?: 
-17 :
+17:
  Score    :
  Placed?  : 
  Competed?: 
-18 :
+18:
  Score    :
  Placed?  : 
  Competed?: 
-19 :
+19:
  Score    :
  Placed?  : 
  Competed?: 
-20 : 
+20: 
  Score    :
  Placed?  : 
  Competed?: 
