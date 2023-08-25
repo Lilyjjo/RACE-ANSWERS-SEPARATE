@@ -14,4 +14,6 @@ Top Score        : 8/8
 Qualifying Score : ?
 Designed By: @patrickd
 
-Write-up: https://ventral.digital/posts/2022/7/25/secureum-bootcamp-epoch-july-race-8
+Write-up: https://ventral.digital/posts/2022/7/25/secureum-bootcamp-epoch-july-race-8 
+
+Note: write-up has some answers out of order from quiz. Go by question wording and not by number.
