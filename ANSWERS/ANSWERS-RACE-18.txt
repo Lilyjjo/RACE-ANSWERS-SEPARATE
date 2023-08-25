@@ -13,3 +13,5 @@ Median Score     : 3.3/8
 Top Score        : 7.3/8
 Qualifying Score : ?
 Designed By: @Josselin Feist - Trail of Bits
+
+Write-up: https://ventral.digital/posts/2023/5/29/race-18-of-the-secureum-bootcamp-epoch-infinity

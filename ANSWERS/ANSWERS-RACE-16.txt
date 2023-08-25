@@ -13,3 +13,5 @@ Median Score     : 2.3/8
 Top Score        : 7/8
 Qualifying Score : ?
 Designed By: @stephens & @Carex Veridise-Team
+
+Write-up: https://ventral.digital/posts/2023/4/1/race-16-of-the-secureum-bootcamp-epoch-infinity 

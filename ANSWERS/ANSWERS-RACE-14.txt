@@ -13,3 +13,5 @@ Median Score     : 3.5/8
 Top Score        : 7.5/8
 Qualifying Score : ?
 Designed By: @walker and @GNSPS
+
+Write-up: https://ventral.digital/posts/2023/1/30/race-14-of-the-secureum-bootcamp-epoch-infinity

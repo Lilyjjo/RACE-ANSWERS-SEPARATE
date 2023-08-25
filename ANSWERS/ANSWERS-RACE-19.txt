@@ -13,3 +13,5 @@ Median Score     : 3.5/8
 Top Score        : 7.5/8
 Qualifying Score : ?
 Designed By: @pashov
+
+Write-up: https://ventral.digital/posts/2023/7/3/race-19-of-the-secureum-bootcamp-epoch-infinity 

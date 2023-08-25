@@ -13,3 +13,5 @@ Median Score     : 2.2/8
 Top Score        : 7/8
 Qualifying Score : ?
 Designed By: @hickuphh3
+
+Write-up: https://ventral.digital/posts/2023/5/1/race-17-of-the-secureum-bootcamp-epoch-infinity

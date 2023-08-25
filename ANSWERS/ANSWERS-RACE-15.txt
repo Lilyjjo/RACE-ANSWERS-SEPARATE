@@ -13,3 +13,5 @@ Median Score     : 4/8
 Top Score        : 8/8
 Qualifying Score : ?
 Designed By: @Nurit|Cetora & @CAREX Certora-Team
+
+Write-up: https://ventral.digital/posts/2023/2/27/race-15-of-the-secureum-bootcamp-epoch-infinity

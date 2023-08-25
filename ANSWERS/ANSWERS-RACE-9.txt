@@ -13,3 +13,5 @@ Median Score     : 2.5/8
 Top Score        : 5.5/8
 Qualifying Score : ?
 Designed By: @patrickd
+
+Write-up: https://ventral.digital/posts/2022/8/29/secureum-bootcamp-epoch-august-race-9

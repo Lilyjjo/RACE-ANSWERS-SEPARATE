@@ -13,4 +13,4 @@ Top Score        : 6.5/8
 Qualifying Score : ?
 Designed By: @hrkshnn
 
-Link to write-up explaining answers: https://ventral.digital/posts/2023/7/30/race-20-of-the-secureum-bootcamp-epoch-infinity 
+Write-up: https://ventral.digital/posts/2023/7/30/race-20-of-the-secureum-bootcamp-epoch-infinity 

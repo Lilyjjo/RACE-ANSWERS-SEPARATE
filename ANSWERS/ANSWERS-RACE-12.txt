@@ -13,3 +13,5 @@ Median Score     : 3/8
 Top Score        : 7.5/8
 Qualifying Score : ?
 Designed By: @patrickd
+
+Write-up: https://ventral.digital/posts/2022/12/6/race-12-of-the-secureum-bootcamp-epoch
