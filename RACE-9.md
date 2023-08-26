@@ -1,5 +1,7 @@
 **Note**: All 8 questions in this RACE are based on the below contracts. This is the same contracts you will see for all the 8 questions in this RACE. The question is below the shown contracts.
 
+**Additional Note**: The code in this quiz uses an older version of OpenZeppelin's Ownable.sol which uses the contract creator as the initial owner of the contract.
+
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.7;

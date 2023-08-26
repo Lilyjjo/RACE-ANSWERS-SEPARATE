@@ -15,3 +15,10 @@ Qualifying Score : ?
 Designed By: @patrickd
 
 Write-up: https://ventral.digital/posts/2022/8/29/secureum-bootcamp-epoch-august-race-9
+
+
+Note: this quiz uses an older version of OpenZeppelin's Ownable which uses the contract creator as the initial owner of the contract. As of 08/2023, this is no longer the case and Ownable's constructor takes the initial owner as a parameter.
+
+Link to current version Ownable: https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol
+
+Link to older version of Ownable referenced in quiz: https://github.com/OpenZeppelin/openzeppelin-contracts/blob/3dac7bbed7b4c0dbf504180c33e8ed8e350b93eb/contracts/access/Ownable.sol 
